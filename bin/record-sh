@@ -1,0 +1,100 @@
+#!/usr/bin/env bash
+
+##############################################################################
+# PROFILE-SH: BASH script profiling tools
+# https://github.com/markuskimius/profile-sh
+#
+# Copyright (c)2021 Mark Kim
+# Released under GNU General Public License version 2.
+# https://github.com/markuskimius/profile-sh/blob/main/LICENSE
+##############################################################################
+
+function usage() {
+    cat <<EOF
+Record a bash script's profile data.
+
+Usage: ${SCRIPTNAME} [OPTIONS] SCRIPT [ARGUMENTS]
+
+OPTIONS:
+  SCRIPT                The bash script whose profile to record.
+
+  -o FILENAME           Output the profile to FILENAME.  [Default=${OUTPUT}]
+
+EXAMPLE:
+  $ record-sh ./fibonacci.sh 10
+  89
+  $
+
+  The profile is saved to 'profile.out'.
+
+EOF
+}
+
+
+##############################################################################
+# PROGRAM BEGINS HERE
+
+source "logger.sh" || exit 1
+source "timestamp.sh" || exit 1
+
+
+SCRIPTNAME=$(basename -- "$BASH_SOURCE")
+OUTPUT=profile.out
+
+
+function main() {
+    local OPTIND OPTERR OPTARG opt
+    local isok=1
+
+    # Check arguments
+    while getopts "o:" opt; do
+        case "$opt" in
+            o)  OUTPUT=$OPTARG ;;
+            *)  logger FAIL "${opt}: Invalid command"
+                isok=0         ;;
+        esac
+    done
+    shift $((OPTIND-1))
+
+    # Sanity check
+    if (( ! isok )); then
+        usage 1>&2
+        exit 1
+    fi
+
+    profile-sh "$@"
+}
+
+
+function profile-sh() {
+    local command
+    local line
+
+    # Locate the command
+    command=$(command -v "$1") && shift
+
+    if [[ -z "$command" ]]; then
+        logger FAIL "${1}: No such script"
+        return 1
+    fi
+
+    # Execute with xtrace enabled, redirect output to $OUTPUT via file
+    # descriptor 127, temporarily saving stdout to file descriptor 126.
+    (
+        (
+            (
+                export PS4='+|__PROFILE__|${BASH_SOURCE}|${FUNCNAME[@]}|${LINENO}|'
+                export BASH_XTRACEFD=127
+
+                bash -x "$command" "$@"
+                bash -x <<<":"
+            ) 127>&1 1>&126 | profile-ts
+        ) 126>&1 1>&127
+    ) 127> "$OUTPUT"
+}
+
+
+##############################################################################
+# ENTRY POINT
+
+main "$@"

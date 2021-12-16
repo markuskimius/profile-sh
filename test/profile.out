@@ -1,0 +1,1154 @@
+1639690990.288836 +|__PROFILE__|./fibonacci.sh||3|MEMO=(1 1)
+1639690990.290008 +|__PROFILE__|./fibonacci.sh||35|main 10
+1639690990.290075 +|__PROFILE__|./fibonacci.sh|main main|7|local i
+1639690990.290118 +|__PROFILE__|./fibonacci.sh|main main|9|for i in "$@"
+1639690990.290154 +|__PROFILE__|./fibonacci.sh|main main|10|fib 10
+1639690990.290188 +|__PROFILE__|./fibonacci.sh|fib main main|16|local i=10
+1639690990.290226 +|__PROFILE__|./fibonacci.sh|fib main main|19|((  i < 0  ))
+1639690990.290263 +|__PROFILE__|./fibonacci.sh|fib main main|24|[[ -z '' ]]
+1639690990.290301 ++|__PROFILE__|./fibonacci.sh|fib main main|25|fib 9
+1639690990.290336 ++|__PROFILE__|./fibonacci.sh|fib fib main main|16|local i=9
+1639690990.290369 ++|__PROFILE__|./fibonacci.sh|fib fib main main|19|((  i < 0  ))
+1639690990.290405 ++|__PROFILE__|./fibonacci.sh|fib fib main main|24|[[ -z '' ]]
+1639690990.290440 +++|__PROFILE__|./fibonacci.sh|fib fib main main|25|fib 8
+1639690990.290476 +++|__PROFILE__|./fibonacci.sh|fib fib fib main main|16|local i=8
+1639690990.290512 +++|__PROFILE__|./fibonacci.sh|fib fib fib main main|19|((  i < 0  ))
+1639690990.290548 +++|__PROFILE__|./fibonacci.sh|fib fib fib main main|24|[[ -z '' ]]
+1639690990.290583 ++++|__PROFILE__|./fibonacci.sh|fib fib fib main main|25|fib 7
+1639690990.290618 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|16|local i=7
+1639690990.290653 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|19|((  i < 0  ))
+1639690990.290689 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.290724 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|25|fib 6
+1639690990.290761 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|16|local i=6
+1639690990.290804 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.290840 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.290875 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|25|fib 5
+1639690990.290910 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|16|local i=5
+1639690990.290931 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.290949 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.290968 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|fib 4
+1639690990.290987 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=4
+1639690990.291005 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.291024 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.291043 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|fib 3
+1639690990.291062 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=3
+1639690990.291081 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.291108 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.291124 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|25|fib 2
+1639690990.291140 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|16|local i=2
+1639690990.291157 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.291173 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.291189 ++++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|25|fib 1
+1639690990.291205 ++++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.291221 ++++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.291237 ++++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.291264 ++++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.291283 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|25|local left=1
+1639690990.291299 ++++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|26|fib 0
+1639690990.291315 ++++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib fib main main|16|local i=0
+1639690990.291331 ++++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.291348 ++++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.291364 ++++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.291380 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|26|local right=1
+1639690990.291397 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|28|MEMO[i]=2
+1639690990.291413 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 2
+1639690990.291448 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|25|local left=2
+1639690990.291490 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|26|fib 1
+1639690990.291519 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.291550 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.291578 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.291605 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.291634 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|26|local right=1
+1639690990.291662 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|28|MEMO[i]=3
+1639690990.291692 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 3
+1639690990.291721 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|local left=3
+1639690990.291751 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|fib 2
+1639690990.291780 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=2
+1639690990.291810 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.291839 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.291868 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|25|fib 1
+1639690990.291897 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.291926 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.291954 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.291994 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.292034 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|25|local left=1
+1639690990.292065 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|26|fib 0
+1639690990.292096 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|16|local i=0
+1639690990.292131 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.292156 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.292180 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.292205 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|26|local right=1
+1639690990.292250 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|28|MEMO[i]=2
+1639690990.292271 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 2
+1639690990.292287 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|local right=2
+1639690990.292304 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|28|MEMO[i]=5
+1639690990.292320 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 5
+1639690990.292336 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|local left=5
+1639690990.292353 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|fib 3
+1639690990.292369 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=3
+1639690990.292385 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.292402 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.292418 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|fib 2
+1639690990.292434 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=2
+1639690990.292451 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.292467 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.292483 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|25|fib 1
+1639690990.292509 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.292527 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.292543 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.292560 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.292576 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|25|local left=1
+1639690990.292593 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|26|fib 0
+1639690990.292609 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|16|local i=0
+1639690990.292625 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.292642 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.292658 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.292675 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|26|local right=1
+1639690990.292691 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|28|MEMO[i]=2
+1639690990.292707 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 2
+1639690990.292723 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|local left=2
+1639690990.292740 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|fib 1
+1639690990.292756 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.292772 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.292789 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.292805 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.292821 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|local right=1
+1639690990.292838 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|28|MEMO[i]=3
+1639690990.292854 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 3
+1639690990.292874 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|local right=3
+1639690990.292891 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|28|MEMO[i]=8
+1639690990.292908 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|31|printf '%s\n' 8
+1639690990.292924 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|25|local left=8
+1639690990.292940 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|26|fib 4
+1639690990.292957 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|16|local i=4
+1639690990.292973 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.292989 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.293006 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|fib 3
+1639690990.293022 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=3
+1639690990.293043 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.293065 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.293082 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|fib 2
+1639690990.293098 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=2
+1639690990.293114 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.293131 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.293147 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|25|fib 1
+1639690990.293166 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.293205 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.293233 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.293259 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.293287 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|25|local left=1
+1639690990.293314 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|26|fib 0
+1639690990.293341 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|16|local i=0
+1639690990.293366 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.293393 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.293420 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.293448 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|26|local right=1
+1639690990.293475 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|28|MEMO[i]=2
+1639690990.293501 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 2
+1639690990.293525 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|local left=2
+1639690990.293566 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|fib 1
+1639690990.293604 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.293631 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.293658 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.293685 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.293712 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|local right=1
+1639690990.293739 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|28|MEMO[i]=3
+1639690990.293772 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 3
+1639690990.293800 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|local left=3
+1639690990.293828 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|fib 2
+1639690990.293854 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=2
+1639690990.293881 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.293920 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.293961 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|fib 1
+1639690990.293988 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.294014 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.294039 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.294063 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.294088 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|local left=1
+1639690990.294125 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|fib 0
+1639690990.294143 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=0
+1639690990.294159 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.294175 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.294192 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.294208 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|local right=1
+1639690990.294224 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|28|MEMO[i]=2
+1639690990.294241 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 2
+1639690990.294257 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|local right=2
+1639690990.294274 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|28|MEMO[i]=5
+1639690990.294290 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|31|printf '%s\n' 5
+1639690990.294306 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|26|local right=5
+1639690990.294323 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|28|MEMO[i]=13
+1639690990.294339 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|31|printf '%s\n' 13
+1639690990.294355 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|25|local left=13
+1639690990.294372 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|26|fib 5
+1639690990.294388 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|16|local i=5
+1639690990.294404 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.294421 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.294437 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|25|fib 4
+1639690990.294459 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|16|local i=4
+1639690990.294477 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.294493 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.294509 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|fib 3
+1639690990.294526 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=3
+1639690990.294542 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.294558 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.294574 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|fib 2
+1639690990.294596 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=2
+1639690990.294614 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.294630 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.294647 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|25|fib 1
+1639690990.294663 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.294679 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.294696 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.294712 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.294728 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|25|local left=1
+1639690990.294745 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|26|fib 0
+1639690990.294761 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|16|local i=0
+1639690990.294777 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.294793 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.294810 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.294826 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|26|local right=1
+1639690990.294842 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|28|MEMO[i]=2
+1639690990.294859 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 2
+1639690990.294875 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|local left=2
+1639690990.294891 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|fib 1
+1639690990.294907 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.294924 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.294940 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.294956 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.294973 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|local right=1
+1639690990.294989 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|28|MEMO[i]=3
+1639690990.295005 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 3
+1639690990.295022 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|local left=3
+1639690990.295038 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|fib 2
+1639690990.295054 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=2
+1639690990.295070 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.295087 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.295103 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|fib 1
+1639690990.295119 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.295136 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.295152 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.295168 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.295185 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|local left=1
+1639690990.295205 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|fib 0
+1639690990.295222 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=0
+1639690990.295239 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.295255 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.295271 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.295287 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|local right=1
+1639690990.295304 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|28|MEMO[i]=2
+1639690990.295320 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 2
+1639690990.295336 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|local right=2
+1639690990.295352 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|28|MEMO[i]=5
+1639690990.295369 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|31|printf '%s\n' 5
+1639690990.295385 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|25|local left=5
+1639690990.295401 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|26|fib 3
+1639690990.295417 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|16|local i=3
+1639690990.295447 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.295466 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.295487 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|fib 2
+1639690990.295526 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=2
+1639690990.295554 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.295581 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.295606 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|fib 1
+1639690990.295633 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.295659 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.295686 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.295713 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.295740 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|local left=1
+1639690990.295767 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|fib 0
+1639690990.295793 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=0
+1639690990.295819 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.295847 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.295874 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.295901 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|local right=1
+1639690990.295929 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|28|MEMO[i]=2
+1639690990.295955 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 2
+1639690990.295980 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|local left=2
+1639690990.296022 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|fib 1
+1639690990.296045 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.296062 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.296078 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.296101 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.296119 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|local right=1
+1639690990.296135 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|28|MEMO[i]=3
+1639690990.296151 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|31|printf '%s\n' 3
+1639690990.296168 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|26|local right=3
+1639690990.296187 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|28|MEMO[i]=8
+1639690990.296204 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|31|printf '%s\n' 8
+1639690990.296221 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|26|local right=8
+1639690990.296237 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|28|MEMO[i]=21
+1639690990.296253 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|31|printf '%s\n' 21
+1639690990.296270 +++|__PROFILE__|./fibonacci.sh|fib fib fib main main|25|local left=21
+1639690990.296286 ++++|__PROFILE__|./fibonacci.sh|fib fib fib main main|26|fib 6
+1639690990.296303 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|16|local i=6
+1639690990.296320 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|19|((  i < 0  ))
+1639690990.296336 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.296352 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|25|fib 5
+1639690990.296369 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|16|local i=5
+1639690990.296385 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.296402 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.296424 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|25|fib 4
+1639690990.296464 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|16|local i=4
+1639690990.296491 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.296518 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.296659 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|fib 3
+1639690990.296719 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=3
+1639690990.296755 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.296786 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.297110 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|fib 2
+1639690990.297164 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=2
+1639690990.297187 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.297206 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.297539 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|25|fib 1
+1639690990.297589 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.297612 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.297631 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.297648 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.297888 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|25|local left=1
+1639690990.298233 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|26|fib 0
+1639690990.298309 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|16|local i=0
+1639690990.298352 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.298396 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.298431 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.298704 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|26|local right=1
+1639690990.298734 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|28|MEMO[i]=2
+1639690990.298759 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 2
+1639690990.299002 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|local left=2
+1639690990.299402 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|fib 1
+1639690990.299491 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.299528 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.299554 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.299582 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.299918 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|local right=1
+1639690990.300022 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|28|MEMO[i]=3
+1639690990.300088 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 3
+1639690990.300502 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|local left=3
+1639690990.300950 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|fib 2
+1639690990.301015 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=2
+1639690990.301053 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.301079 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.301507 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|fib 1
+1639690990.301580 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.301614 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.301639 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.301663 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.301942 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|local left=1
+1639690990.302397 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|fib 0
+1639690990.302493 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=0
+1639690990.302550 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.302598 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.302659 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.302965 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|local right=1
+1639690990.303021 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|28|MEMO[i]=2
+1639690990.303053 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 2
+1639690990.303364 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|local right=2
+1639690990.303401 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|28|MEMO[i]=5
+1639690990.303443 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|31|printf '%s\n' 5
+1639690990.303834 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|25|local left=5
+1639690990.304346 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|26|fib 3
+1639690990.304421 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|16|local i=3
+1639690990.304452 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.304479 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.304904 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|fib 2
+1639690990.304963 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=2
+1639690990.304993 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.305019 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.305428 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|fib 1
+1639690990.305470 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.305491 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.305509 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.305527 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.305758 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|local left=1
+1639690990.306108 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|fib 0
+1639690990.306149 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=0
+1639690990.306170 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.306189 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.306216 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.306454 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|local right=1
+1639690990.306530 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|28|MEMO[i]=2
+1639690990.306579 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 2
+1639690990.306906 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|local left=2
+1639690990.307272 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|fib 1
+1639690990.307318 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.307342 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.307385 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.307413 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.307772 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|local right=1
+1639690990.307832 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|28|MEMO[i]=3
+1639690990.307875 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|31|printf '%s\n' 3
+1639690990.308143 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|26|local right=3
+1639690990.308209 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|28|MEMO[i]=8
+1639690990.308287 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|31|printf '%s\n' 8
+1639690990.308658 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|25|local left=8
+1639690990.309107 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|26|fib 4
+1639690990.309170 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|16|local i=4
+1639690990.309207 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.309233 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.309654 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|25|fib 3
+1639690990.309699 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|16|local i=3
+1639690990.309739 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.309768 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.310189 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|fib 2
+1639690990.310251 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=2
+1639690990.310287 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.310313 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.310636 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|fib 1
+1639690990.310716 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.310741 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.310759 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.310777 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.311038 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|local left=1
+1639690990.311592 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|fib 0
+1639690990.311660 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=0
+1639690990.311692 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.311720 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.311749 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.312112 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|local right=1
+1639690990.312223 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|28|MEMO[i]=2
+1639690990.312292 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 2
+1639690990.312672 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|local left=2
+1639690990.313152 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|fib 1
+1639690990.313220 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.313259 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.313287 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.313315 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.313637 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|local right=1
+1639690990.313676 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|28|MEMO[i]=3
+1639690990.313704 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|31|printf '%s\n' 3
+1639690990.314048 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|25|local left=3
+1639690990.314557 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|26|fib 2
+1639690990.314623 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|16|local i=2
+1639690990.314655 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.314684 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.315131 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|fib 1
+1639690990.315192 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.315223 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.315251 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.315279 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.315667 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|local left=1
+1639690990.316159 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|fib 0
+1639690990.316275 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=0
+1639690990.316344 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.316400 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.316454 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.316807 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|local right=1
+1639690990.316856 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|28|MEMO[i]=2
+1639690990.316885 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|31|printf '%s\n' 2
+1639690990.317215 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|26|local right=2
+1639690990.317254 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|28|MEMO[i]=5
+1639690990.317283 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|31|printf '%s\n' 5
+1639690990.317612 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|26|local right=5
+1639690990.317652 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|28|MEMO[i]=13
+1639690990.317680 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|31|printf '%s\n' 13
+1639690990.318040 +++|__PROFILE__|./fibonacci.sh|fib fib fib main main|26|local right=13
+1639690990.318116 +++|__PROFILE__|./fibonacci.sh|fib fib fib main main|28|MEMO[i]=34
+1639690990.318185 +++|__PROFILE__|./fibonacci.sh|fib fib fib main main|31|printf '%s\n' 34
+1639690990.318566 ++|__PROFILE__|./fibonacci.sh|fib fib main main|25|local left=34
+1639690990.319048 +++|__PROFILE__|./fibonacci.sh|fib fib main main|26|fib 7
+1639690990.319137 +++|__PROFILE__|./fibonacci.sh|fib fib fib main main|16|local i=7
+1639690990.319200 +++|__PROFILE__|./fibonacci.sh|fib fib fib main main|19|((  i < 0  ))
+1639690990.319257 +++|__PROFILE__|./fibonacci.sh|fib fib fib main main|24|[[ -z '' ]]
+1639690990.319801 ++++|__PROFILE__|./fibonacci.sh|fib fib fib main main|25|fib 6
+1639690990.319876 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|16|local i=6
+1639690990.319908 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|19|((  i < 0  ))
+1639690990.319938 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.320401 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|25|fib 5
+1639690990.320506 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|16|local i=5
+1639690990.320575 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.320634 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.321188 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|25|fib 4
+1639690990.321252 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|16|local i=4
+1639690990.321285 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.321328 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.321856 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|fib 3
+1639690990.321930 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=3
+1639690990.321965 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.321995 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.322518 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|fib 2
+1639690990.322628 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=2
+1639690990.322673 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.322706 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.323235 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|25|fib 1
+1639690990.323313 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.323348 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.323380 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.323422 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.323858 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|25|local left=1
+1639690990.324434 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|26|fib 0
+1639690990.324580 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|16|local i=0
+1639690990.324661 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.324725 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.324802 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.325240 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|26|local right=1
+1639690990.325296 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|28|MEMO[i]=2
+1639690990.325361 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 2
+1639690990.325757 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|local left=2
+1639690990.326346 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|fib 1
+1639690990.326422 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.326467 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.326499 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.326531 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.326899 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|local right=1
+1639690990.326975 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|28|MEMO[i]=3
+1639690990.327020 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 3
+1639690990.327404 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|local left=3
+1639690990.328078 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|fib 2
+1639690990.328152 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=2
+1639690990.328188 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.328220 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.328766 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|fib 1
+1639690990.328863 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.328909 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.328941 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.328973 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.329343 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|local left=1
+1639690990.329915 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|fib 0
+1639690990.329992 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=0
+1639690990.330036 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.330090 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.330123 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.330458 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|local right=1
+1639690990.330540 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|28|MEMO[i]=2
+1639690990.330585 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 2
+1639690990.330926 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|local right=2
+1639690990.331015 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|28|MEMO[i]=5
+1639690990.331098 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|31|printf '%s\n' 5
+1639690990.331537 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|25|local left=5
+1639690990.332040 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|26|fib 3
+1639690990.332108 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|16|local i=3
+1639690990.332140 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.332169 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.332629 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|fib 2
+1639690990.332701 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=2
+1639690990.332743 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.332773 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.333271 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|fib 1
+1639690990.333403 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.333473 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.333530 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.333601 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.333978 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|local left=1
+1639690990.334493 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|fib 0
+1639690990.334604 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=0
+1639690990.334673 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.334731 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.334787 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.335156 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|local right=1
+1639690990.335218 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|28|MEMO[i]=2
+1639690990.335262 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 2
+1639690990.335684 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|local left=2
+1639690990.336184 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|fib 1
+1639690990.336307 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.336380 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.336439 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.336498 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.336907 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|local right=1
+1639690990.336960 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|28|MEMO[i]=3
+1639690990.337004 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|31|printf '%s\n' 3
+1639690990.337375 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|26|local right=3
+1639690990.337417 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|28|MEMO[i]=8
+1639690990.337448 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|31|printf '%s\n' 8
+1639690990.337815 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|25|local left=8
+1639690990.338362 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|26|fib 4
+1639690990.338436 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|16|local i=4
+1639690990.338469 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.338500 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.339006 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|25|fib 3
+1639690990.339075 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|16|local i=3
+1639690990.339107 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.339136 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.339642 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|fib 2
+1639690990.339712 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=2
+1639690990.339744 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.339774 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.340299 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|fib 1
+1639690990.340436 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.340511 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.340571 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.340628 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.341053 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|local left=1
+1639690990.341628 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|fib 0
+1639690990.341752 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=0
+1639690990.341829 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.341893 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.341971 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.342385 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|local right=1
+1639690990.342452 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|28|MEMO[i]=2
+1639690990.342521 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 2
+1639690990.342907 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|local left=2
+1639690990.343458 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|fib 1
+1639690990.343586 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.343661 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.343723 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.343785 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.344235 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|local right=1
+1639690990.344308 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|28|MEMO[i]=3
+1639690990.344358 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|31|printf '%s\n' 3
+1639690990.344725 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|25|local left=3
+1639690990.345278 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|26|fib 2
+1639690990.345394 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|16|local i=2
+1639690990.345469 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.345530 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.346110 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|fib 1
+1639690990.346193 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.346231 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.346263 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.346295 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.346676 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|local left=1
+1639690990.347207 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|fib 0
+1639690990.347276 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=0
+1639690990.347311 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.347343 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.347375 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.347801 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|local right=1
+1639690990.347876 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|28|MEMO[i]=2
+1639690990.347925 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|31|printf '%s\n' 2
+1639690990.348277 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|26|local right=2
+1639690990.348379 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|28|MEMO[i]=5
+1639690990.348450 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|31|printf '%s\n' 5
+1639690990.348887 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|26|local right=5
+1639690990.348961 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|28|MEMO[i]=13
+1639690990.349013 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|31|printf '%s\n' 13
+1639690990.349347 +++|__PROFILE__|./fibonacci.sh|fib fib fib main main|25|local left=13
+1639690990.349936 ++++|__PROFILE__|./fibonacci.sh|fib fib fib main main|26|fib 5
+1639690990.350014 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|16|local i=5
+1639690990.350052 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|19|((  i < 0  ))
+1639690990.350083 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.350603 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|25|fib 4
+1639690990.350669 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|16|local i=4
+1639690990.350705 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.350738 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.351263 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|25|fib 3
+1639690990.351371 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|16|local i=3
+1639690990.351472 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.351543 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.352210 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|fib 2
+1639690990.352290 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=2
+1639690990.352329 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.352379 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.352983 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|fib 1
+1639690990.353063 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.353103 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.353138 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.353173 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.353586 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|local left=1
+1639690990.354258 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|fib 0
+1639690990.354346 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=0
+1639690990.354388 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.354423 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.354458 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.354904 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|local right=1
+1639690990.355054 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|28|MEMO[i]=2
+1639690990.355144 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 2
+1639690990.355647 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|local left=2
+1639690990.356269 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|fib 1
+1639690990.356349 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.356389 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.356423 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.356458 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.356888 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|local right=1
+1639690990.356977 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|28|MEMO[i]=3
+1639690990.357079 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|31|printf '%s\n' 3
+1639690990.357507 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|25|local left=3
+1639690990.358040 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|26|fib 2
+1639690990.358115 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|16|local i=2
+1639690990.358152 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.358181 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.358659 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|fib 1
+1639690990.358730 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.358770 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.358800 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.358829 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.359176 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|local left=1
+1639690990.359762 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|fib 0
+1639690990.359837 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=0
+1639690990.359869 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.359900 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.359942 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.360284 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|local right=1
+1639690990.360353 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|28|MEMO[i]=2
+1639690990.360402 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|31|printf '%s\n' 2
+1639690990.360714 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|26|local right=2
+1639690990.360789 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|28|MEMO[i]=5
+1639690990.360874 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|31|printf '%s\n' 5
+1639690990.361284 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|25|local left=5
+1639690990.361794 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|26|fib 3
+1639690990.361869 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|16|local i=3
+1639690990.361904 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.361935 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.362410 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|25|fib 2
+1639690990.362464 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|16|local i=2
+1639690990.362507 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.362544 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.363034 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|fib 1
+1639690990.363105 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.363146 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.363176 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.363206 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.363583 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|local left=1
+1639690990.364116 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|fib 0
+1639690990.364235 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=0
+1639690990.364308 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.364368 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.364426 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.364838 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|local right=1
+1639690990.364892 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|28|MEMO[i]=2
+1639690990.364923 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|31|printf '%s\n' 2
+1639690990.365310 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|25|local left=2
+1639690990.365801 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|26|fib 1
+1639690990.365907 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|16|local i=1
+1639690990.365975 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.366032 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.366088 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.366442 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|26|local right=1
+1639690990.366493 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|28|MEMO[i]=3
+1639690990.366524 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|31|printf '%s\n' 3
+1639690990.366867 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|26|local right=3
+1639690990.366941 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|28|MEMO[i]=8
+1639690990.367017 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|31|printf '%s\n' 8
+1639690990.367395 +++|__PROFILE__|./fibonacci.sh|fib fib fib main main|26|local right=8
+1639690990.367468 +++|__PROFILE__|./fibonacci.sh|fib fib fib main main|28|MEMO[i]=21
+1639690990.367501 +++|__PROFILE__|./fibonacci.sh|fib fib fib main main|31|printf '%s\n' 21
+1639690990.367872 ++|__PROFILE__|./fibonacci.sh|fib fib main main|26|local right=21
+1639690990.367942 ++|__PROFILE__|./fibonacci.sh|fib fib main main|28|MEMO[i]=55
+1639690990.367994 ++|__PROFILE__|./fibonacci.sh|fib fib main main|31|printf '%s\n' 55
+1639690990.368280 +|__PROFILE__|./fibonacci.sh|fib main main|25|local left=55
+1639690990.368824 ++|__PROFILE__|./fibonacci.sh|fib main main|26|fib 8
+1639690990.368917 ++|__PROFILE__|./fibonacci.sh|fib fib main main|16|local i=8
+1639690990.368982 ++|__PROFILE__|./fibonacci.sh|fib fib main main|19|((  i < 0  ))
+1639690990.369040 ++|__PROFILE__|./fibonacci.sh|fib fib main main|24|[[ -z '' ]]
+1639690990.369559 +++|__PROFILE__|./fibonacci.sh|fib fib main main|25|fib 7
+1639690990.369610 +++|__PROFILE__|./fibonacci.sh|fib fib fib main main|16|local i=7
+1639690990.369641 +++|__PROFILE__|./fibonacci.sh|fib fib fib main main|19|((  i < 0  ))
+1639690990.369670 +++|__PROFILE__|./fibonacci.sh|fib fib fib main main|24|[[ -z '' ]]
+1639690990.370173 ++++|__PROFILE__|./fibonacci.sh|fib fib fib main main|25|fib 6
+1639690990.370247 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|16|local i=6
+1639690990.370279 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|19|((  i < 0  ))
+1639690990.370309 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.370788 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|25|fib 5
+1639690990.370841 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|16|local i=5
+1639690990.370874 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.370903 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.371411 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|25|fib 4
+1639690990.371567 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|16|local i=4
+1639690990.371640 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.371675 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.372212 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|fib 3
+1639690990.372343 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=3
+1639690990.372423 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.372488 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.373066 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|fib 2
+1639690990.373172 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=2
+1639690990.373221 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.373254 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.373801 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|25|fib 1
+1639690990.373890 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.373935 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.373967 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.373999 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.374387 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|25|local left=1
+1639690990.374985 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|26|fib 0
+1639690990.375069 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|16|local i=0
+1639690990.375110 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.375159 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.375201 +++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.375636 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|26|local right=1
+1639690990.375711 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|28|MEMO[i]=2
+1639690990.375764 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 2
+1639690990.376161 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|local left=2
+1639690990.376793 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|fib 1
+1639690990.376915 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.376992 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.377057 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.377118 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.377537 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|local right=1
+1639690990.377627 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|28|MEMO[i]=3
+1639690990.377673 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 3
+1639690990.378078 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|local left=3
+1639690990.378641 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|fib 2
+1639690990.378722 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=2
+1639690990.378761 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.378794 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.379353 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|fib 1
+1639690990.379487 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.379562 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.379615 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.379665 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.380000 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|local left=1
+1639690990.380690 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|fib 0
+1639690990.380815 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=0
+1639690990.380893 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.380956 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.381017 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.381473 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|local right=1
+1639690990.381607 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|28|MEMO[i]=2
+1639690990.381682 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 2
+1639690990.382180 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|local right=2
+1639690990.382248 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|28|MEMO[i]=5
+1639690990.382325 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|31|printf '%s\n' 5
+1639690990.382745 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|25|local left=5
+1639690990.383811 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|26|fib 3
+1639690990.383909 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|16|local i=3
+1639690990.383974 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.384028 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.384545 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|fib 2
+1639690990.384654 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=2
+1639690990.384719 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.384773 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.385275 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|fib 1
+1639690990.385392 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.385457 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.385510 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.385562 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.385938 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|local left=1
+1639690990.387713 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|fib 0
+1639690990.387781 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=0
+1639690990.387823 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.387858 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.387893 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.388166 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|local right=1
+1639690990.388230 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|28|MEMO[i]=2
+1639690990.388278 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 2
+1639690990.388575 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|local left=2
+1639690990.388927 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|fib 1
+1639690990.388981 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.389014 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.389042 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.389071 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.389263 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|local right=1
+1639690990.389300 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|28|MEMO[i]=3
+1639690990.389330 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|31|printf '%s\n' 3
+1639690990.389546 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|26|local right=3
+1639690990.389582 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|28|MEMO[i]=8
+1639690990.389612 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|31|printf '%s\n' 8
+1639690990.389831 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|25|local left=8
+1639690990.390142 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|26|fib 4
+1639690990.390179 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|16|local i=4
+1639690990.390209 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.390251 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.390591 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|25|fib 3
+1639690990.390681 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|16|local i=3
+1639690990.390710 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.390747 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.391103 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|fib 2
+1639690990.391154 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=2
+1639690990.391187 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.391215 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.391598 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|fib 1
+1639690990.391696 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.391723 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.391760 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.391793 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.392086 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|local left=1
+1639690990.392447 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|fib 0
+1639690990.392499 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=0
+1639690990.392532 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.392559 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.392588 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.392763 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|local right=1
+1639690990.392811 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|28|MEMO[i]=2
+1639690990.392845 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 2
+1639690990.393062 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|local left=2
+1639690990.393430 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|fib 1
+1639690990.393519 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.393546 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.393575 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.393609 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.393880 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|local right=1
+1639690990.393931 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|28|MEMO[i]=3
+1639690990.393962 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|31|printf '%s\n' 3
+1639690990.394157 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|25|local left=3
+1639690990.394523 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|26|fib 2
+1639690990.394611 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|16|local i=2
+1639690990.394638 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.394675 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.395006 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|fib 1
+1639690990.395056 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.395089 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.395127 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.395157 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.395332 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|local left=1
+1639690990.395724 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|fib 0
+1639690990.395814 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=0
+1639690990.395842 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.395879 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.395904 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.396185 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|local right=1
+1639690990.396230 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|28|MEMO[i]=2
+1639690990.396278 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|31|printf '%s\n' 2
+1639690990.396551 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|26|local right=2
+1639690990.396592 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|28|MEMO[i]=5
+1639690990.396633 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|31|printf '%s\n' 5
+1639690990.396913 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|26|local right=5
+1639690990.396958 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|28|MEMO[i]=13
+1639690990.396994 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|31|printf '%s\n' 13
+1639690990.397265 +++|__PROFILE__|./fibonacci.sh|fib fib fib main main|25|local left=13
+1639690990.397624 ++++|__PROFILE__|./fibonacci.sh|fib fib fib main main|26|fib 5
+1639690990.397677 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|16|local i=5
+1639690990.397707 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|19|((  i < 0  ))
+1639690990.397736 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.398060 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|25|fib 4
+1639690990.398114 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|16|local i=4
+1639690990.398144 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.398175 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.398519 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|25|fib 3
+1639690990.398569 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|16|local i=3
+1639690990.398601 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.398628 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.398971 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|fib 2
+1639690990.399058 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=2
+1639690990.399084 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.399120 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.399498 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|fib 1
+1639690990.399558 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.399589 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.399617 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.399641 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.399851 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|local left=1
+1639690990.400264 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|fib 0
+1639690990.400317 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=0
+1639690990.400349 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.400383 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.400416 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.400681 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|local right=1
+1639690990.400749 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|28|MEMO[i]=2
+1639690990.400798 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 2
+1639690990.401054 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|local left=2
+1639690990.401491 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|fib 1
+1639690990.401546 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.401581 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.401610 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.401640 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.401826 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|local right=1
+1639690990.401859 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|28|MEMO[i]=3
+1639690990.401889 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|31|printf '%s\n' 3
+1639690990.402122 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|25|local left=3
+1639690990.402451 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|26|fib 2
+1639690990.402493 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|16|local i=2
+1639690990.402525 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.402555 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.402910 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|fib 1
+1639690990.403006 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.403034 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.403062 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.403096 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.403389 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|local left=1
+1639690990.404150 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|fib 0
+1639690990.404197 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=0
+1639690990.404222 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.404241 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.404259 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.404475 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|local right=1
+1639690990.404506 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|28|MEMO[i]=2
+1639690990.404528 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|31|printf '%s\n' 2
+1639690990.404751 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|26|local right=2
+1639690990.404781 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|28|MEMO[i]=5
+1639690990.404803 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|31|printf '%s\n' 5
+1639690990.405029 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|25|local left=5
+1639690990.405338 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|26|fib 3
+1639690990.405379 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|16|local i=3
+1639690990.405401 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.405420 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.405721 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|25|fib 2
+1639690990.405761 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|16|local i=2
+1639690990.405783 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.405801 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.406126 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|fib 1
+1639690990.406172 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.406194 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.406212 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.406231 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.406468 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|local left=1
+1639690990.406822 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|fib 0
+1639690990.406865 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=0
+1639690990.406887 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.406907 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.406936 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.407164 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|local right=1
+1639690990.407219 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|28|MEMO[i]=2
+1639690990.407270 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|31|printf '%s\n' 2
+1639690990.407632 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|25|local left=2
+1639690990.408039 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|26|fib 1
+1639690990.408085 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|16|local i=1
+1639690990.408112 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.408137 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.408161 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.408454 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|26|local right=1
+1639690990.408487 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|28|MEMO[i]=3
+1639690990.408510 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|31|printf '%s\n' 3
+1639690990.408787 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|26|local right=3
+1639690990.408845 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|28|MEMO[i]=8
+1639690990.408909 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|31|printf '%s\n' 8
+1639690990.409225 +++|__PROFILE__|./fibonacci.sh|fib fib fib main main|26|local right=8
+1639690990.409266 +++|__PROFILE__|./fibonacci.sh|fib fib fib main main|28|MEMO[i]=21
+1639690990.409292 +++|__PROFILE__|./fibonacci.sh|fib fib fib main main|31|printf '%s\n' 21
+1639690990.409579 ++|__PROFILE__|./fibonacci.sh|fib fib main main|25|local left=21
+1639690990.410045 +++|__PROFILE__|./fibonacci.sh|fib fib main main|26|fib 6
+1639690990.410108 +++|__PROFILE__|./fibonacci.sh|fib fib fib main main|16|local i=6
+1639690990.410137 +++|__PROFILE__|./fibonacci.sh|fib fib fib main main|19|((  i < 0  ))
+1639690990.410164 +++|__PROFILE__|./fibonacci.sh|fib fib fib main main|24|[[ -z '' ]]
+1639690990.410557 ++++|__PROFILE__|./fibonacci.sh|fib fib fib main main|25|fib 5
+1639690990.410619 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|16|local i=5
+1639690990.410650 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|19|((  i < 0  ))
+1639690990.410676 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.411093 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|25|fib 4
+1639690990.411176 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|16|local i=4
+1639690990.411232 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.411281 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.411760 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|25|fib 3
+1639690990.411816 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|16|local i=3
+1639690990.411844 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.411871 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.412309 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|fib 2
+1639690990.412361 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=2
+1639690990.412390 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.412416 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.412865 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|fib 1
+1639690990.412976 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.413036 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.413085 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.413133 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.413477 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|25|local left=1
+1639690990.413936 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|fib 0
+1639690990.413995 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|16|local i=0
+1639690990.414030 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.414055 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.414082 ++++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.414353 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|26|local right=1
+1639690990.414441 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|28|MEMO[i]=2
+1639690990.414509 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 2
+1639690990.414838 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|local left=2
+1639690990.415254 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|fib 1
+1639690990.415303 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.415331 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.415356 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.415380 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.415719 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|local right=1
+1639690990.415763 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|28|MEMO[i]=3
+1639690990.415790 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|31|printf '%s\n' 3
+1639690990.416099 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|25|local left=3
+1639690990.416594 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|26|fib 2
+1639690990.416669 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|16|local i=2
+1639690990.416700 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.416727 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.417139 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|fib 1
+1639690990.417199 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.417229 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.417255 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.417280 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.417579 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|local left=1
+1639690990.417900 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|fib 0
+1639690990.417976 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=0
+1639690990.418001 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.418018 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.418036 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.418241 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|local right=1
+1639690990.418267 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|28|MEMO[i]=2
+1639690990.418285 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|31|printf '%s\n' 2
+1639690990.418528 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|26|local right=2
+1639690990.418575 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|28|MEMO[i]=5
+1639690990.418628 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|31|printf '%s\n' 5
+1639690990.418903 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|25|local left=5
+1639690990.419226 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|26|fib 3
+1639690990.419267 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|16|local i=3
+1639690990.419288 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.419307 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.419655 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|25|fib 2
+1639690990.419720 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|16|local i=2
+1639690990.419765 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.419802 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.420172 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|fib 1
+1639690990.420212 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.420233 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.420260 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.420284 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.420516 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|local left=1
+1639690990.420935 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|fib 0
+1639690990.420992 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=0
+1639690990.421018 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.421042 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.421065 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.421329 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|local right=1
+1639690990.421364 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|28|MEMO[i]=2
+1639690990.421387 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|31|printf '%s\n' 2
+1639690990.421663 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|25|local left=2
+1639690990.421976 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|26|fib 1
+1639690990.422018 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|16|local i=1
+1639690990.422039 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.422057 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.422076 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.422281 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|26|local right=1
+1639690990.422307 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|28|MEMO[i]=3
+1639690990.422326 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|31|printf '%s\n' 3
+1639690990.422549 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|26|local right=3
+1639690990.422575 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|28|MEMO[i]=8
+1639690990.422593 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|31|printf '%s\n' 8
+1639690990.422824 +++|__PROFILE__|./fibonacci.sh|fib fib fib main main|25|local left=8
+1639690990.423138 ++++|__PROFILE__|./fibonacci.sh|fib fib fib main main|26|fib 4
+1639690990.423170 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|16|local i=4
+1639690990.423189 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|19|((  i < 0  ))
+1639690990.423206 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.423538 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|25|fib 3
+1639690990.423584 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|16|local i=3
+1639690990.423605 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.423624 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.423984 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|25|fib 2
+1639690990.424059 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|16|local i=2
+1639690990.424111 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.424155 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.424541 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|fib 1
+1639690990.424600 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=1
+1639690990.424631 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.424653 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.424688 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.424968 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|25|local left=1
+1639690990.425414 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|fib 0
+1639690990.425469 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|16|local i=0
+1639690990.425497 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.425523 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.425547 +++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.425836 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|26|local right=1
+1639690990.425870 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|28|MEMO[i]=2
+1639690990.425893 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|31|printf '%s\n' 2
+1639690990.426176 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|25|local left=2
+1639690990.426558 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|26|fib 1
+1639690990.426608 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|16|local i=1
+1639690990.426635 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.426659 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.426682 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.426991 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|26|local right=1
+1639690990.427028 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|28|MEMO[i]=3
+1639690990.427055 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|31|printf '%s\n' 3
+1639690990.427358 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|25|local left=3
+1639690990.427923 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|26|fib 2
+1639690990.428009 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|16|local i=2
+1639690990.428046 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.428110 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|24|[[ -z '' ]]
+1639690990.429835 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|25|fib 1
+1639690990.429879 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|16|local i=1
+1639690990.429905 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.429923 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.429941 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.430155 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|25|local left=1
+1639690990.430478 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|26|fib 0
+1639690990.430519 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|16|local i=0
+1639690990.430540 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|19|((  i < 0  ))
+1639690990.430559 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|24|[[ -z 1 ]]
+1639690990.430577 ++++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib fib main main|31|printf '%s\n' 1
+1639690990.430813 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|26|local right=1
+1639690990.430869 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|28|MEMO[i]=2
+1639690990.430924 +++++|__PROFILE__|./fibonacci.sh|fib fib fib fib fib main main|31|printf '%s\n' 2
+1639690990.431219 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|26|local right=2
+1639690990.431258 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|28|MEMO[i]=5
+1639690990.431283 ++++|__PROFILE__|./fibonacci.sh|fib fib fib fib main main|31|printf '%s\n' 5
+1639690990.431560 +++|__PROFILE__|./fibonacci.sh|fib fib fib main main|26|local right=5
+1639690990.431617 +++|__PROFILE__|./fibonacci.sh|fib fib fib main main|28|MEMO[i]=13
+1639690990.431662 +++|__PROFILE__|./fibonacci.sh|fib fib fib main main|31|printf '%s\n' 13
+1639690990.431960 ++|__PROFILE__|./fibonacci.sh|fib fib main main|26|local right=13
+1639690990.432012 ++|__PROFILE__|./fibonacci.sh|fib fib main main|28|MEMO[i]=34
+1639690990.432048 ++|__PROFILE__|./fibonacci.sh|fib fib main main|31|printf '%s\n' 34
+1639690990.432274 +|__PROFILE__|./fibonacci.sh|fib main main|26|local right=34
+1639690990.432329 +|__PROFILE__|./fibonacci.sh|fib main main|28|MEMO[i]=89
+1639690990.432373 +|__PROFILE__|./fibonacci.sh|fib main main|31|printf '%s\n' 89
+1639690990.434232 +|__PROFILE__|||1|:
