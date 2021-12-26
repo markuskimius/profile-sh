@@ -81,16 +81,12 @@ function profile-sh() {
     # Execute with xtrace enabled, redirect output to $OUTPUT via file
     # descriptor 127, temporarily saving stdout to file descriptor 126.
     (
-        (
-            (
-                export PS4='+|__PROFILE__|${BASH_SOURCE}|${FUNCNAME[@]}|${LINENO}|'
-                export BASH_XTRACEFD=127
+        export PS4='+|__PROFILE__|${BASH_SOURCE}|${FUNCNAME[@]}|${LINENO}|'
+        export BASH_XTRACEFD=127
 
-                bash -x "$command" "$@"
-                bash -x <<<":"
-            ) 127>&1 1>&126 | profile-ts
-        ) 126>&1 1>&127
-    ) 127> "$OUTPUT"
+        bash -x "$command" "$@"
+        bash -x <<<":"
+    ) 127> >(profile-ts > "$OUTPUT")
 }
 
 
