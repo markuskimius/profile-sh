@@ -34,7 +34,6 @@ EOF
 ##############################################################################
 # PROGRAM BEGINS HERE
 
-source "logger.sh" || exit 1
 source "timestamp.sh" || exit 1
 
 
@@ -50,8 +49,7 @@ function main() {
     while getopts "o:" opt; do
         case "$opt" in
             o)  OUTPUT=$OPTARG ;;
-            *)  logger FAIL "${opt}: Invalid command"
-                isok=0         ;;
+            *)  isok=0         ;;
         esac
     done
     shift $((OPTIND-1))
@@ -74,7 +72,7 @@ function profile-sh() {
     command=$(command -v "$1") && shift
 
     if [[ -z "$command" ]]; then
-        logger FAIL "${1}: No such script"
+        printf "%s: No such script\n" "$1" 1>&2
         return 1
     fi
 

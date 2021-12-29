@@ -43,9 +43,6 @@ EOF
 ##############################################################################
 # PROGRAM BEGINS HERE
 
-source "logger.sh" || exit 1
-
-
 SCRIPTNAME=$(basename -- "$BASH_SOURCE")
 
 
@@ -58,8 +55,7 @@ function main() {
     while getopts "o:" opt; do
         case "$opt" in
             o)  OUTPUT=$OPTARG ;;
-            *)  logger FAIL "${opt}: Invalid command"
-                isok=0         ;;
+            *)  isok=0         ;;
         esac
     done
     shift $((OPTIND-1))
@@ -72,7 +68,12 @@ function main() {
 
     # Fold each file
     for file in "$@"; do
-        cat "$file" | stackfold-sh | flamegraph-sh
+        if [[ ! -r "$file" ]]; then
+            printf "%s: No such file\n" "$file" 1>&2
+            continue
+        fi
+
+        cat "$file" | stackfold-sh | collate-sh
     done
 }
 
@@ -105,7 +106,7 @@ function stackfold-sh() {
 }
 
 
-function flamegraph-sh() {
+function collate-sh() {
     local file=$1
     local us script stack
     local -A profile=()
