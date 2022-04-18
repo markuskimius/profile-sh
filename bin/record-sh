@@ -77,7 +77,7 @@ function profile-sh() {
     fi
 
     # Execute with xtrace enabled, redirect output to $OUTPUT via file
-    # descriptor 127, temporarily saving stdout to file descriptor 126.
+    # descriptor 127.
     (
         export PS4='+|__PROFILE__|${BASH_SOURCE}|${FUNCNAME[@]}|${LINENO}|'
         export BASH_XTRACEFD=127
