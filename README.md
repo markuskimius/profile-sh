@@ -23,6 +23,9 @@ $ report-sh ./profile.out
 $
 ```
 
+`record-sh` runs a bash script and records its profile data in `profile.out`.
+
+`report-sh` produces a report from the profile file.
 The first column is the number of microseconds spent in the stackframe.
 The second column is the name of the script of the stackframe.
 The third column is the stackframe within the script.
