@@ -1,5 +1,5 @@
 # profile-sh
-bash script profiling tools
+a bash script profiling tool
 
 
 # Usage
