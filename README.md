@@ -54,5 +54,5 @@ Inspired by [FlameGraph].
 
 
 [FlameGraph]: <https://github.com/brendangregg/FlameGraph>
-     [GPLv2]: <https://github.com/markuskimius/common/blob/main/LICENSE>
+     [GPLv2]: <https://github.com/markuskimius/dpm/blob/main/LICENSE>
        [dpm]: <https://github.com/markuskimius/dpm>
